@@ -208,29 +208,20 @@ font-size:28px;
 }
 
 .vk-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-
     background: #0077FF;
     color: white;
 
     border: none;
     border-radius: 8px;
 
-    padding: 8px 14px;
+    padding: 10px 18px;
+
     font-size: 14px;
-    white-space: nowrap;
+    font-weight: 500;
 
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .vk-btn:hover {
     background: #0066dd;
-}
-
-.vk-btn img {
-    width: 18px;
-    height: 18px;
 }
