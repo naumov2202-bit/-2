@@ -208,20 +208,21 @@ font-size:28px;
 }
 
 .vk-btn {
+    display: inline-block !important;
+
+    width: auto !important;
+    height: auto !important;
+
     background: #0077FF;
     color: white;
 
     border: none;
     border-radius: 8px;
 
-    padding: 10px 18px;
+    padding: 8px 14px;
 
     font-size: 14px;
-    font-weight: 500;
+    line-height: 1;
 
     cursor: pointer;
-}
-
-.vk-btn:hover {
-    background: #0066dd;
 }
