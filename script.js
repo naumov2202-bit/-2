@@ -21,7 +21,7 @@ document.getElementById("countdown").innerHTML =
 updateCountdown();
 setInterval(updateCountdown, 60000);
 
-function sendVK() {
+function sendTelegram() {
 
 const guests = document.getElementById("guests").value;
 
@@ -37,11 +37,7 @@ const text =
 🥂 Напитки: ${drinks}
 💬 Комментарий: ${message}`;
 
-// копируем текст
-navigator.clipboard.writeText(text);
+const encodedText = encodeURIComponent(text);
 
-// открываем конкретный чат VK
-const userId = "123456789"; // <-- сюда ID человека или беседы
-
-window.open(`https://vk.com/im?sel=nau_mov_i`, "_blank");
+window.open(`https://t.me/Ignau2?text=${encodedText}`, "_blank");
 }
