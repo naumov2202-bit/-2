@@ -207,10 +207,32 @@ font-size:21px;
 font-size:28px;
 }
 
-button{
-font-size:22px;
+.vk-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #0077FF;
+    color: white;
+
+    border: none;
+    border-radius: 12px;
+
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: 0.3s;
 }
 
+.vk-btn:hover {
+    background: #0066dd;
+}
+
+.vk-btn img {
+    width: 24px;
+    height: 24px;
+}
 .footer-text{
 font-size:28px;
 }
