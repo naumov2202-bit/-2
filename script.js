@@ -39,7 +39,6 @@ const text =
 
 console.log(text);
 
-// Переход в VK
 window.open("https://vk.com/nau_mov_i", "_blank");
 
 }
