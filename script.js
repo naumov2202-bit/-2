@@ -37,8 +37,11 @@ const text =
 🥂 Напитки: ${drinks}
 💬 Комментарий: ${message}`;
 
-console.log(text);
+// копируем текст
+navigator.clipboard.writeText(text);
 
-window.open("https://vk.com/nau_mov_i", "_blank");
+// открываем конкретный чат VK
+const userId = "123456789"; // <-- сюда ID человека или беседы
 
+window.open(`https://vk.com/im?sel=nau_mov_i`, "_blank");
 }
