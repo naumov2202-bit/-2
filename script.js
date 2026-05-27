@@ -21,7 +21,7 @@ document.getElementById("countdown").innerHTML =
 updateCountdown();
 setInterval(updateCountdown, 60000);
 
-function sendTelegram(){
+function sendVK() {
 
 const guests = document.getElementById("guests").value;
 
@@ -32,7 +32,11 @@ const drinks = [...document.querySelectorAll('input[type="checkbox"]:checked')]
 const message = document.getElementById("message").value;
 
 const text =
-`Здравствуйте! Подтверждаем участие.%0A%0A👥 Количество гостей: ${guests}%0A🥂 Напитки: ${drinks}%0A💬 Комментарий: ${message}`;
+`Здравствуйте! Подтверждаем участие.
+👥 Количество гостей: ${guests}
+🥂 Напитки: ${drinks}
+💬 Комментарий: ${message}`;
 
-window.open(`https://t.me/Ignau2?text=${text}`, "_blank");
+window.open("https://vk.com/nau_mov_i", "_blank");
+
 }
