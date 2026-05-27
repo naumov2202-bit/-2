@@ -208,20 +208,21 @@ font-size:28px;
 }
 
 .vk-btn {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
 
     background: #0077FF;
     color: white;
 
     border: none;
-    border-radius: 12px;
+    border-radius: 8px;
 
-    padding: 12px 20px;
-    font-size: 16px;
+    padding: 8px 14px;
+    font-size: 14px;
+    white-space: nowrap;
+
     cursor: pointer;
-
     transition: 0.3s;
 }
 
@@ -230,10 +231,6 @@ font-size:28px;
 }
 
 .vk-btn img {
-    width: 24px;
-    height: 24px;
-}
-.footer-text{
-font-size:28px;
-}
+    width: 18px;
+    height: 18px;
 }
