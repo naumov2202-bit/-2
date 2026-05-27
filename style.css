@@ -207,10 +207,8 @@ font-size:21px;
 font-size:28px;
 }
 
-.vk-btn {
-    display: inline-block;
-    width: fit-content;
-    background: #0077FF;
+.tg-btn {
+    background: #229ED9;
     color: white;
 
     border: none;
@@ -218,7 +216,6 @@ font-size:28px;
 
     padding: 8px 14px;
     font-size: 14px;
-    line-height: 1;
 
     cursor: pointer;
 }
